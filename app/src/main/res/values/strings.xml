@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">GeoMob</string>
+    <string name="favourite_countries">favourite countries</string>
+    <string name="all_countries">all countries</string>
+    <string name="search">search</string>
+    <string name="videos">Videos</string>
+    <string name="slides_show">Slides show</string>
+    <string name="twitters">Tweets</string>
+    <string name="title_activity_country">CountryActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="set_as_favourite">Set as Favorite</string>
+    <string name="set_as_not_favorite">Set as Not Favorite</string>
+    <string name="other">Other</string>
+    <string name="about">About</string>
+    <string name="image_view">image_view</string>
+    <string name="history">History</string>
+    <string name="description">Description</string>
+    <string name="surface">Surface</string>
+    <string name="population">Population</string>
+    <string name="resources">Resources</string>
+
+
+</resources>

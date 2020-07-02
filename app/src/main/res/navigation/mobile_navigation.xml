@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/info_fragment">
+
+    <fragment
+        android:id="@+id/info_fragment"
+        android:name="com.example.geomob.ui.countryActivity.info.InfoFragment"
+        android:label="@string/about"
+        tools:layout="@layout/info_fragment">
+        <action
+            android:id="@+id/to_anthem_fragment_action"
+            app:destination="@+id/anthem_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/anthem_fragment"
+        android:name="com.example.geomob.ui.countryActivity.anthem.AnthemFragment"
+        android:label="@string/about"
+        tools:layout="@layout/anthem_fragment" />
+
+
+    <fragment
+        android:id="@+id/videos_fragment"
+        android:name="com.example.geomob.ui.countryActivity.videos.VideosFragment"
+        android:label="@string/videos"
+        tools:layout="@layout/videos_fragment">
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/twitters_fragment"
+        android:name="com.example.geomob.ui.countryActivity.twitters.TwittersFragment"
+        android:label="@string/twitters"
+        tools:layout="@layout/twitters_fragment" />
+
+    <fragment
+        android:id="@+id/history_fragment"
+        android:name="com.example.geomob.ui.countryActivity.history.HistoryFragment"
+        android:label="@string/history"
+        tools:layout="@layout/history_fragment" />
+
+</navigation>
